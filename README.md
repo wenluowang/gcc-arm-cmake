@@ -5,7 +5,7 @@ Ubuntu base image with GNU Arm Embedded Toolchain and cmake installed.
 
 # Environment Variables
 
-* **$GCC_VERSION**<br>
+* **$UBUNTU_VERSION**<br>
   The ubuntu version used in image, e.g. `"18.04"`.
 
 * **$GCC_VERSION**<br>
