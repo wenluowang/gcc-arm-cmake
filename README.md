@@ -1,9 +1,14 @@
 gcc-arm-cmake
 =============
 
-Ubuntu base image with GNU Arm Embedded Toolchain and cmake installed.
+Ubuntu/Debian base image with GNU Arm Embedded Toolchain and cmake installed.
+
+Debian version also has clang-tidy.
 
 # Environment Variables
+
+* **$DEBIAN_VERSION**<br>
+  The debian version used in image, e.g. `"buster"`.
 
 * **$UBUNTU_VERSION**<br>
   The ubuntu version used in image, e.g. `"18.04"`.
