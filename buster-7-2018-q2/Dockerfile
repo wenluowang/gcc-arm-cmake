@@ -1,7 +1,7 @@
 FROM debian:buster-slim
 
 ENV DEBIAN_VERSION=buster
-ENV GCC_VERSION=7-2018-q2
+ENV GCC_VERSION=5-2015-q1
 
 ARG DEBIAN_FRONTEND=noninteractive
 
